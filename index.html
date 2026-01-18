@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>光の花</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <nav class="flex justify-between items-center p-4 bg-white shadow">
+        <h1 class="text-2xl font-bold text-red-500">光の花</h1>
+        <div class="space-x-6">
+            <a href="#home" class="hover:text-red-500">Home</a>
+            <a href="#menu" class="hover:text-red-500">Menu</a>
+            <a href="#order" lass="hover:text-red-500">Order</a>
+        </div>
+    </nav>
+    <section id="home" class="p-12 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <img src="./Photos/Logo.jpg" alt="Logo" class="mx-auto w-70 mb-6">
+            <h2 class="text-4xl font-bold mb-4 text-red-500">
+                光の花 (Flowers of Light)
+            </h2>
+            <p class="italic text-gray-500 text-lg mb-6">“Where light blooms into flavor.”</p>
+            <p class="text-gray-700 leading-relaxed text-lg">
+              Established in the late 18th century, <span class="font-semibold">光の花</span> is a traditional family-owned Japanese restaurant passed down through generations. Known for its dedication to freshness, balance, and harmony, every dish is prepared using time-honored techniques and recipes preserved for over 200 years.
+            </p>
+            <p class="mt-4 text-gray text-lg">
+                <i>Serving food that brings warmth, light and joy to every table.</i>
+            </p>
+        </div>
+    </section>
+    <div id="menu" class="grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
+        <div class="bg-white rounded-2xl over-flow-hidden hover:scale-105 transition">
+            <img src="./Photos/SalmonNigiri.jpg" alt="Salmon Nigiri" class="w-full h-48 object-cover rounded">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Salmon Nigiri</h3>
+                <p classs="text-gray-600 mt-1">¥850</p>
+                <p class="mt-2 text-pink-600 font-semibold">🌸 4/5</p>
+                <button class="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">
+                    Order Now!
+                </button>
+            </div>
+        </div>
+        <div class="bg-white rounded-2xl over-flow-hidden hover:scale-105 transition">
+            <img src="./Photos/TunaSashimi.jpg" alt="Tuna Sashimi" class="w-full h-48 object-cover rounded">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Tuna Sashimi</h3>
+                <p classs="text-gray-600 mt-1">¥1,200</p>
+                <p class="mt-2 text-pink-600 font-semibold">🌸 4.5/5</p>
+                <button class="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">
+                    Order Now!
+                </button>
+            </div>
+        </div>
+        <div class="bg-white rounded-2xl over-flow-hidden hover:scale-105 transition">
+            <img src="./Photos/TonkotsuRamen.jpg" alt="Tonkotsu Ramen" class="w-full h-48 object-cover rounded">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Tonkotsu Ramen</h3>
+                <p classs="text-gray-600 mt-1">¥1,100</p>
+                <p class="mt-2 text-pink-600 font-semibold">🌸 5/5</p>
+                <button class="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">
+                    Order Now!
+                </button>
+            </div>
+        </div>
+        <div class="bg-white rounded-2xl over-flow-hidden hover:scale-105 transition">
+            <img src="./Photos/ChickenKatsuDon.jpg" alt="Chicken Katsu Don" class="w-full h-48 object-cover rounded">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Chicken Katsu Don</h3>
+                <p classs="text-gray-600 mt-1">¥950</p>
+                <p class="mt-2 text-pink-600 font-semibold">🌸 4/5</p>
+                <button class="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">
+                    Order Now!
+                </button>
+            </div>
+        </div>
+        <div class="bg-white rounded-2xl over-flow-hidden hover:scale-105 transition">
+            <img src="./Photos/UnagiBento.jpg" alt="Unagi Bento" class="w-full h-48 object-cover rounded">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Unagi Bento</h3>
+                <p classs="text-gray-600 mt-1">¥1,500</p>
+                <p class="mt-2 text-pink-600 font-semibold">🌸 4.5/5</p>
+                <button class="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">
+                    Order Now!
+                </button>
+            </div>
+        </div>
+        <div class="bg-white rounded-2xl over-flow-hidden hover:scale-105 transition">
+            <img src="./Photos/TempuraUdon.jpg" alt="Tempura Udon" class="w-full h-48 object-cover rounded">
+            <div class="p-4">
+                <h3 class="text-xl font-bold">Tempura Udon</h3>
+                <p classs="text-gray-600 mt-1">¥900</p>
+                <p class="mt-2 text-pink-600 font-semibold">🌸 4/5</p>
+                <button class="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">
+                    Order Now!
+                </button>
+            </div>
+        </div>
+    </div>
+    <section id="order" class="bg-stone-100 p-10">
+        <h2 class="text-3xl font-bold text-center mb-8">Place Your Order</h2>
+        <form class="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow space-y-4">
+            <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg">
+            <input type="text" placeholder="Phone Number" class="w-full p-3 border rounded-lg">
+            <input type="text" placeholder="Food Name" class="w-full p-3 border rounded-lg">
+            <textarea placeholder="Delivery Address" class="w-full p-3 border rounded-lg"></textarea>
+            <button class="w-full bg-red-500 text-white py-3 rounded-lg hove:bg-red-600">
+                Confirm Order
+            </button>
+        </form>
+    </section>
+    <footer class="bg-gray-900 text-gray-300 py-10">
+        <div class="max-w-6xl mx-auto grid0cols-1 md-grid-cols-3 gap-8 px-6">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-3">光の花</h3>
+                <p>Japanese food delivered with tradition and care.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold text-whtie mt-5 mb-3">Contact</h3>
+                <p>Email: support@hikarinohana.jp</p>
+                <p>Phone: +81 90 1234 5678</p>
+                <p>Address: 1 Chome-24-1 Kabukicho, Shinjuku-ku, Tokyo</p>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-bold text-whtie mt-5 mb-3">Follow Us</h3>
+                <p>Instagram ~ Twitter ~ Facebook</p>
+            </div>
+
+            <p class="text-center mt-8 text-sm text-gray-500">
+                © 2026 SakuraEats | 光の花
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
